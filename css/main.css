@@ -1,0 +1,10 @@
+
+.wrapper {
+    position: relative;
+}
+
+.portrait__index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
