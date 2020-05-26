@@ -1,10 +1,13 @@
 
 .wrapper {
     position: relative;
+    background-color: rgb(161, 79, 238);
+    margin: 0px;
 }
 
 body {
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 .header__container {
@@ -15,6 +18,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     height: 100px;
+    border: 2px solid gold;
 }
 
 /* Prince Purple #663366 */
@@ -27,6 +31,10 @@ body {
 .header__container a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.header__container a:hover {
+    color: #D4AF37;
 }
 
 .header__menuitem {
@@ -51,7 +59,22 @@ body {
     text-align: center;
 }
 
+
 .article__index {
     display: flex;
     justify-content: space-evenly;
+}
+
+.section__index {
+    border: 2px solid gold;
+    background-color: darkorchid;
+    padding: 0.5em;
+}
+
+.h3__article {
+    text-align: center;
+}
+
+.portrait__pic {
+    border: 2px solid black;
 }
