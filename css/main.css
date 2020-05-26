@@ -2,6 +2,7 @@
 .wrapper {
     position: relative;
     background-color: gainsboro;
+    margin: 0px;
 }
 
 body {
@@ -33,6 +34,10 @@ body {
     text-decoration: none;
 }
 
+.header__container a:hover {
+    color: #D4AF37;
+}
+
 .header__menuitem {
     background-color: #663366;
     border-radius: 1em;
@@ -54,6 +59,7 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
 
 .article__index {
     display: flex;
