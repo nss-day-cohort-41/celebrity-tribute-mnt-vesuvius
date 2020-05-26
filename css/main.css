@@ -3,8 +3,55 @@
     position: relative;
 }
 
+body {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    height: 100px;
+}
+
+/* Prince Purple #663366 */
+.header__container img {
+    width: 100px;
+    height: 100%;
+    background-color: #663366;
+}
+
+.header__container a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header__menuitem {
+    background-color: #663366;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.header__description {
+    color: whitesmoke;
+    margin-inline-start: 3em;
+    margin-top: 2em;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
 .portrait__index {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.article__index {
+    display: flex;
+    justify-content: space-evenly;
 }
