@@ -108,20 +108,19 @@ body {
 .section__newsfeed {
     flex: 2;
     border: gold 1px solid;
+    text-align: center; 
 }
 
 .section__newsfeed h3 {
     text-align: center;
 }
 
-
 figure img {
-    display: block;
+    display: inline-block;
     border: 5px solid gold;
     margin: auto;
     height: 40%;
     width: 40%;
-    align-items: center;
 }
 
 figure img:hover {
