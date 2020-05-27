@@ -60,7 +60,6 @@ body {
     text-align: center;
 }
 
-
 .article__index {
     display: flex;
     justify-content: space-evenly;
@@ -84,11 +83,13 @@ body {
     border: 3px solid gold;
 }
 
+/* news feed CSS */
+
 .article__newsfeed {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
+    height: 70%;
+    
 }
 
 .article__newsfeed--heading {
@@ -96,19 +97,46 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
+    color: whitesmoke;
+    background-color: #663366;
+    border: 3px solid gold;
 }
+
+.article__newsfeed--heading h1:hover {
+    color: #D4AF37;
+}   
+
 
 .section__newsfeed {
-    flex: 1em; 
-    /* background-color: #663366; */
-    border: gold 1px solid
+    flex: 2;
+    border: gold 1px solid;
 }
 
-img {
-    width: 30%;
-    height: 40%;
-    justify-content: center;
+.section__newsfeed h3 {
+    text-align: center;
 }
+
+
+figure img {
+    display: block;
+    border: 5px solid gold;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+    align-items: center;
+}
+
+figure img:hover {
+    border-color: #663366;
+}
+
+figcaption {
+    text-align: center;
+    
+}
+
+/* end news feed CSS */
 
 .reframe {
     width: 150px;
@@ -126,24 +154,6 @@ img {
     color: whitesmoke;
 }
 
-
-footer {
-    background-color: black;
-    text-align: center;
-    color: whitesmoke;
-    border: 3px solid gold;
-    
-}
-
-footer a {
-    color: gold;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 footer {
     background-color: black;
