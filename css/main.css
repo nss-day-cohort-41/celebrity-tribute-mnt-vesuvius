@@ -124,14 +124,6 @@ img {
     color: whitesmoke;
 }
 
-.family-members {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px dashed purple;
-    width: 30vw;
-    height: 30vw;
-}
 
 footer {
     background-color: black;
