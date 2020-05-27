@@ -86,6 +86,7 @@ body {
 .article__newsfeed {
     display: flex;
     flex-direction: column;
+    background-color:  whitesmoke;
     height: 70%;
 }
 
@@ -97,7 +98,6 @@ body {
     color: whitesmoke;
     background-color: #663366;
     border: 3px solid gold;
-    margin: 0;
 }
 
 
@@ -112,12 +112,16 @@ body {
 
 figure img {
     display: block;
+    border: 3px solid gold;
     margin-left: auto;
     margin-right: auto;
     height: 40%;
     width: 40%;
     align-items: center;
-    
+}
+
+figure img:hover {
+    border-color: #663366;
 }
 
 figcaption {
