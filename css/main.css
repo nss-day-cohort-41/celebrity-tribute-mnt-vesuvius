@@ -1,4 +1,3 @@
-
 .wrapper {
     position: relative;
     background-color: gainsboro;
@@ -106,4 +105,26 @@ img {
     width: 30%;
     height: 40%;
     justify-content: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+.reframe {
+    width: 150px;
+    height: 150px;
+}
+
+.personal-information {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: gold;
+    border-style: solid;
+}
+
+.family-members {
+    flex-direction: row;
+} 
+>>>>>>> 976a5d4832f98ce113dd6b70b3169e0e6440016f

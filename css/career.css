@@ -1,0 +1,16 @@
+
+.strip__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.strip__child {
+  margin: 5px;
+  width: 100%;
+}
+
+
+.strip__child img {
+  width: 100%;
+}
