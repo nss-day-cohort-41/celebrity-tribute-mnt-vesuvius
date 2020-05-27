@@ -171,6 +171,13 @@ footer a {
     justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+.social-media img {
+    height: 2em;
+}
+
+>>>>>>> master
 .wrapper-personal {
     position: relative;
     background-color: gainsboro;
