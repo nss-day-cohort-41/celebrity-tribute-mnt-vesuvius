@@ -1,11 +1,7 @@
 
 .wrapper {
     position: relative;
-<<<<<<< HEAD
-    background-color: rgb(161, 79, 238);
-=======
     background-color: gainsboro;
->>>>>>> master
     margin: 0px;
 }
 
@@ -22,12 +18,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     height: 100px;
-<<<<<<< HEAD
-    border: 2px solid gold;
-=======
     border: 3px solid gold;
     padding: 3px;
->>>>>>> master
 }
 
 /* Prince Purple #663366 */
@@ -66,7 +58,6 @@ body {
     flex-direction: column;
     text-align: center;
 }
-
 
 .article__index {
     display: flex;
@@ -108,10 +99,11 @@ body {
 .section__newsfeed {
     flex: 1em; 
     /* background-color: #663366; */
-    border: gold 1px solid
+    border: gold 1px solid;
 }
 
 img {
     width: 30%;
     height: 40%;
     justify-content: center;
+}
