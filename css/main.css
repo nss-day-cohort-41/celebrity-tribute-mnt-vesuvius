@@ -46,12 +46,10 @@ body {
 
 .header__description {
     color: whitesmoke;
-    margin-top: 5px;
     margin-left: 2em;
-    text-align: center;
+    margin-top: 2em;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     letter-spacing: 2px;
-    font-size: 1.2vw;
 }
 
 .portrait__index, .main__header__career {
@@ -110,21 +108,19 @@ body {
 .section__newsfeed {
     flex: 2;
     border: gold 1px solid;
+    text-align: center; 
 }
 
 .section__newsfeed h3 {
     text-align: center;
 }
 
-
 figure img {
-    display: block;
+    display: inline-block;
     border: 5px solid gold;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 40%;
     width: 40%;
-    align-items: center;
 }
 
 figure img:hover {
@@ -160,10 +156,13 @@ footer {
     text-align: center;
     color: whitesmoke;
     border: 3px solid gold;
+    
 }
+
 footer a {
     color: gold;
 }
+
 .social-media {
     display: flex;
     flex-direction: row;
@@ -178,4 +177,4 @@ footer a {
     position: relative;
     background-color: gainsboro;
     margin: 0px;
-} 
+}
