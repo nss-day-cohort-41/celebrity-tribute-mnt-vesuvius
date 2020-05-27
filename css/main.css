@@ -122,11 +122,10 @@ img {
     font-size: 20px;
     border: gold;
     border-style: solid;
+    background-color: #663366;
+    color: whitesmoke;
 }
 
-.family-members {
-    flex-direction: row;
-} 
 
 footer {
     background-color: black;
@@ -139,3 +138,29 @@ footer {
 footer a {
     color: gold;
 }
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid gold;
+}
+footer a {
+    color: gold;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrapper-personal {
+    position: relative;
+    background-color: gainsboro;
+    margin: 0px;
+} 
