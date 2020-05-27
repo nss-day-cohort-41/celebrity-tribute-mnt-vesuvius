@@ -1,11 +1,6 @@
-
 .wrapper {
     position: relative;
-<<<<<<< HEAD
     background-color: rgb(161, 79, 238);
-=======
-    background-color: gainsboro;
->>>>>>> master
     margin: 0px;
 }
 
@@ -22,12 +17,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     height: 100px;
-<<<<<<< HEAD
     border: 2px solid gold;
-=======
-    border: 3px solid gold;
-    padding: 3px;
->>>>>>> master
 }
 
 /* Prince Purple #663366 */
@@ -115,3 +105,22 @@ img {
     width: 30%;
     height: 40%;
     justify-content: center;
+}
+
+.reframe {
+    width: 150px;
+    height: 150px;
+}
+
+.personal-information {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: gold;
+    border-style: solid;
+}
+
+.family-members {
+    flex-direction: row;
+} 
