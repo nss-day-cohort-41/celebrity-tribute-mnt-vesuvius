@@ -1,0 +1,13 @@
+
+.strip__container {
+  width: 440px;
+  display: flex;
+}
+
+.strip__child {
+  margin: 5px;
+}
+
+.strip__child img {
+  width: 100%;
+}

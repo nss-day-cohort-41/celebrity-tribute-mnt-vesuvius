@@ -1,11 +1,7 @@
 
 .wrapper {
     position: relative;
-<<<<<<< HEAD
-    background-color: rgb(161, 79, 238);
-=======
     background-color: gainsboro;
->>>>>>> master
     margin: 0px;
 }
 
@@ -22,12 +18,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     height: 100px;
-<<<<<<< HEAD
-    border: 2px solid gold;
-=======
     border: 3px solid gold;
     padding: 3px;
->>>>>>> master
 }
 
 /* Prince Purple #663366 */
