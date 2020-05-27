@@ -98,6 +98,7 @@ body {
     color: whitesmoke;
     background-color: #663366;
     border: 3px solid gold;
+    margin-top: .5em;
 }
 
 .article__newsfeed--heading h1:hover {
@@ -107,12 +108,15 @@ body {
 
 .section__newsfeed {
     flex: 2;
-    border: gold 1px solid;
     text-align: center; 
 }
 
 .section__newsfeed h3 {
     text-align: center;
+    background-color: #663366;
+    border: 3px solid gold;
+    color: whitesmoke;
+      
 }
 
 figure img {
