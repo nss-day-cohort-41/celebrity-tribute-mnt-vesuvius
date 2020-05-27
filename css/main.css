@@ -46,10 +46,12 @@ body {
 
 .header__description {
     color: whitesmoke;
+    margin-top: 5px;
     margin-left: 2em;
-    margin-top: 2em;
+    text-align: center;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     letter-spacing: 2px;
+    font-size: 1.2vw;
 }
 
 .portrait__index, .main__header__career {
@@ -126,3 +128,14 @@ img {
     flex-direction: row;
 } 
 
+footer {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid gold;
+    
+}
+
+footer a {
+    color: gold;
+}
