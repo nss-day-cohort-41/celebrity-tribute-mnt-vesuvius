@@ -86,7 +86,6 @@ body {
 .article__newsfeed {
     display: flex;
     flex-direction: column;
-    background-color:  whitesmoke;
     height: 70%;
 }
 
@@ -112,7 +111,7 @@ body {
 
 figure img {
     display: block;
-    border: 3px solid gold;
+    border: 5px solid gold;
     margin-left: auto;
     margin-right: auto;
     height: 40%;
