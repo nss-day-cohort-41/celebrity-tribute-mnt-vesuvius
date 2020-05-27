@@ -46,10 +46,12 @@ body {
 
 .header__description {
     color: whitesmoke;
+    margin-top: 5px;
     margin-left: 2em;
-    margin-top: 2em;
+    text-align: center;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     letter-spacing: 2px;
+    font-size: 1.2vw;
 }
 
 .portrait__index, .main__header__career {
@@ -158,25 +160,17 @@ footer {
     text-align: center;
     color: whitesmoke;
     border: 3px solid gold;
-    
 }
-
 footer a {
     color: gold;
 }
-
 .social-media {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
-} 
-=======
     justify-content: center;
 }
-
 .wrapper-personal {
     position: relative;
     background-color: gainsboro;
     margin: 0px;
-}
->>>>>>> master
+} 
