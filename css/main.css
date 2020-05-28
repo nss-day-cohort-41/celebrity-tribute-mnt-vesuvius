@@ -52,6 +52,8 @@ body {
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     font-size: 2vh;
     letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .portrait__index, .main__header__career {
