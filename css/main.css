@@ -85,6 +85,7 @@ body {
 
 .article__newsfeed {
     display: flex;
+    flex: 1;
     flex-direction: column;
     height: 70%;
     
@@ -92,6 +93,7 @@ body {
 
 .article__newsfeed--heading {
     display: flex;
+    flex: 1;
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
@@ -105,9 +107,8 @@ body {
     color: #D4AF37;
 }   
 
-
 .section__newsfeed {
-    flex: 2;
+    flex: 1;
     text-align: center; 
 }
 
@@ -115,8 +116,7 @@ body {
     text-align: center;
     background-color: #663366;
     border: 3px solid gold;
-    color: whitesmoke;
-      
+    color: whitesmoke;    
 }
 
 figure img {
@@ -133,7 +133,6 @@ figure img:hover {
 
 figcaption {
     text-align: center;
-    
 }
 
 /* end news feed CSS */
