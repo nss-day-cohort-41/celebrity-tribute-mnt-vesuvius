@@ -198,3 +198,6 @@ footer a {
     height: 600px;
     overflow: scroll;
 }
+
+.spotify__index {
+    text-align: match-parent;
