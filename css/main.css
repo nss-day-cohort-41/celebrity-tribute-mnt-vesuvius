@@ -182,3 +182,18 @@ footer a {
     background-color: gainsboro;
     margin: 0px;
 }
+
+.about-prince-container {
+    position: relative;
+    bottom: 600px;
+    left: 700px;    
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border: none;
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+}
