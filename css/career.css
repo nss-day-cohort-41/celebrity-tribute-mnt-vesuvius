@@ -49,8 +49,8 @@ body {
 }
 .article__career {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  /* color: #696969;*/
   color: #663366;
 }
 
