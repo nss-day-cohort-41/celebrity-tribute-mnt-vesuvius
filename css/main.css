@@ -206,3 +206,6 @@ footer a {
     text-align: match-parent;
 }
 
+.navbar__here {
+    color: gold;
+}
