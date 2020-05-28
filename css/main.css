@@ -182,3 +182,7 @@ footer a {
     background-color: gainsboro;
     margin: 0px;
 }
+
+.spotify__index {
+    text-align: match-parent;
+}
