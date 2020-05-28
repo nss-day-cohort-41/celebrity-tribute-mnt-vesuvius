@@ -64,6 +64,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     color: black;
+    flex-wrap: wrap;
 }
 
 .article__index h3 {
@@ -201,3 +202,5 @@ footer a {
 
 .spotify__index {
     text-align: match-parent;
+}
+
