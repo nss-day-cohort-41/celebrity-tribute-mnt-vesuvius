@@ -1,79 +1,24 @@
-# Nashville Software School Tribute Agency
+# Nashville Software School Tribute Agency Webpage
 
-Welcome fans.
+## Description
 
-Your first task as a reporter of the NSSTA is to compile a tribute report on one of the many artists we are considering as a potential honoree winner. Listed below is the information we need to be gathered. Each one of you will be responsible for building a web page to present this information to our judges for consideration.
+Our task was to compile a tribute report on an artist we are considering inducting into our fictional Nashville Software School Tribute Agency (NSSTA). We were to create the following pages: Executive Summary, Personal, Career, and News Feed. We used semantic HTML and CSS to create this page, as well as using BEM class declarations, flexbox, and embedding for audio files and Google Maps. 
 
-Keep in mind you should be practicing what you have learned so far in class. When you are building your site, make sure you are using semantic tags whenever possible and use Flexbox for styling instead of CSS frameworks such as Bootstrap or Materialize.
+## Installation
 
-## All pages should include:
-1. Navigation with links to the other pages of the report.
-2. Social Media links in the footer.
-3. Be sure to break each page into meaningful sections, include headings, and use bullet list where appropriate.
-4. Valid HTML. Run each page of HTML code through the html validator at [https://validator.w3.org/](https://validator.w3.org/).
+1. To run our code, please run a git pull to your internet web directory and launch index.html on your browser. 
+2. Every HTML page was run through HTML validator at [https://validator.w3.org/] and passed.
 
-### Tips For A Good Usable Website
-1. Use acceptable conventions
-   * Logo positioned at top left
-   * Navigation across the top or down the left side
-2. Visual hierarchy
-   * Most important information is the most prominent
-3. Break pages up into defined sections
-   * Logically related content should be related visually
-4. That which is clickable should be obviously clickable.
-5. Eliminate distractions
-   * Use only two typefaces
-   * Limit color pallet (3 colors with black and white)
-   * Use a grid
-6. Support scanning (users don't read)
-   * Use plenty of headings
-   * Short paragraphs
-   * Bulleted lists
-7. Strive for consistency.
+## Usage
 
-#
-## Executive Summary
+1. Click on each individual page on Navigation bar (top of page) for their content
+2. Click on embedded Spotify audio on Home page to listen to Prince and some of his collaborators
+3. Click on the embedded Google Maps on Home page to see where Prince's Paisley Home is located and how to find directions to it from anywhere
+4. Click on images in News Feed to open links to current events and news about Prince
+5. Click on social media links in footer to access Prince's pages.
 
-This should be the first information displayed when the report is opened. It should contain the following components.
+## Project Status
+This project is considered complete.
 
-1. Known collaborators with the artist.
-2. A portrait of the artist. This component should have a photo and name.
-3. List of known aliases.
-4. Country of residence.
-
-## Career
-
-We want to see the artist's list of talents. This page should include the following components.
-
-1. Short intro to artist.
-2. List of skills/talents.
-3. List of published works - minimum of 3 with images.
-4. List of places the artist has lived. Be sure to list begin and end times.
-5. Include any collaborators.
-6. List of awards.
-
-
-## Personal
-
-1. Birth date with country of origin.
-1. Birth name (if different than public name)
-1. Death date if applicable.
-1. Country of current residence.
-1. List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
-    1. For multiple spouses, show begin/end dates.
-
-## News Feed
-
-We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
-
-1. Recent events that might be connected to artist.
-1. Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets.
-
-
-## (If you have 5 team members) Extras Report
-
-1. List of online resources: offical website, Wikipedia, art galleries, tribute websites, etc.
-1. List of places to view or aquire works.
-1. List of business/organizations/volunteer with logo image.
-1. List of past or current tour/exhibit/show dates
-
+## Authors and Acknowledgement
+Thank you so much to everyone on our team: David Bruce(Career page), Jon Riley(Personal page), Brett Derrington(Executive Summary-Home page), and Sisi Freeley(News Feed page) for their contributions and help on this project! It was great communicating and collaborating with all of you!
