@@ -2,7 +2,7 @@
 
 ## Description
 
-Our task was to compile a tribute report on an artist we are considering inducting into our fictional Nashville Software School Tribute Agency (NSSTA). We were to create the following pages: Executive Summary, Personal, Career, and News Feed. We used semantic HTML and CSS to create this page, as well as using BEM class declarations, flexbox, and embedding for audio files and Google Maps. 
+Our task was to compile a tribute report on an artist we are considering inducting into our fictional Nashville Software School Tribute Agency (NSSTA). We were to create the following pages: Executive Summary, Personal, Career, and News Feed. We used semantic HTML and CSS to create these pages, as well as using BEM class declarations, flexbox, and embedding links for audio files and Google Maps. 
 
 ## Installation
 
