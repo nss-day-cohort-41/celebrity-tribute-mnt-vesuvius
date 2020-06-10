@@ -1,0 +1,81 @@
+body {
+  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  background-color: gainsboro;
+  margin: 0px;
+}
+
+.strip__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.strip__child {
+  margin: 3px;
+  width: 100%;
+}
+
+  /* prince #663366 */
+
+.strip__child img {
+  height:125px;
+  width:100%;
+  border: 3px solid black;
+  border-top: 2em solid black;
+  border-bottom: 2em solid black;
+
+}   
+
+.header__main__career h1 {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: #663366;
+  border: 3px solid gold;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.article__career__intro {
+  margin: 2em;
+  text-align: center;
+}
+
+.article__career__intro section {
+  display: inline-block;
+  text-indent: 2pc;
+  text-align: center;
+}
+.article__career {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #663366;
+}
+
+.section__career__albums {
+  flex-direction: column;
+  justify-content: center;
+  font-style: italic;
+  font-size: x-large;
+  margin: 0;
+  width: 100%;
+  color: #663366;
+}
+.section__career__albums img {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  
+}
+
+.article__career h3 {
+  color: whitesmoke;  
+  justify-content: center;
+
+  background-color: #663366;
+  border: 3px solid gold;
+  padding: 3px;
+}
+

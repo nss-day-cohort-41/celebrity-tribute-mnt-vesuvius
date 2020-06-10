@@ -1,0 +1,212 @@
+.wrapper {
+    position: relative;
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    height: 100px;
+    border: 3px solid gold;
+    padding: 3px;
+    flex: 1;
+}
+
+/* Prince Purple #663366 */
+.header__container img {
+    width: 100px;
+    height: 100%;
+    background-color: #663366;
+}
+
+.header__container a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header__container a:hover {
+    color: #D4AF37;
+}
+
+.header__menuitem {
+    background-color: #663366;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.header__description {
+    color: whitesmoke;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.portrait__index, .main__header__career {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article__index {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.article__index h3 {
+    color: whitesmoke;
+    background-color: #663366;
+    border: 3px solid gold;
+    padding: 3px;
+}
+
+.portrait__index img {
+    border: 1px solid black;
+}
+
+.portrait__index h1 {
+    color: whitesmoke;
+    background-color: #663366;
+    border: 3px solid gold;
+}
+
+/* news feed CSS */
+
+.article__newsfeed {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 70%;
+    
+}
+
+.article__newsfeed--heading {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #663366;
+    border: 3px solid gold;
+    margin-top: .5em;
+}
+
+.article__newsfeed--heading h1:hover {
+    color: #D4AF37;
+}   
+
+.section__newsfeed {
+    flex: 1;
+    text-align: center; 
+}
+
+.section__newsfeed h3 {
+    text-align: center;
+    background-color: #663366;
+    border: 3px solid gold;
+    color: whitesmoke;    
+}
+
+figure img {
+    display: inline-block;
+    border: 5px solid gold;
+    margin: auto;
+    height: 40%;
+    width: 40%;
+}
+
+figure img:hover {
+    border-color: #663366;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* end news feed CSS */
+
+.reframe {
+    width: 150px;
+    height: 150px;
+}
+
+.personal-information {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: gold;
+    border-style: solid;
+    background-color: #663366;
+    color: whitesmoke;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid gold;
+    
+}
+
+footer a {
+    color: gold;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media img {
+    height: 2em;
+}
+
+.wrapper-personal {
+    position: relative;
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+.about-prince-container {
+    position: relative;
+    bottom: 600px;
+    left: 700px;    
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border: none;
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+}
+
+.spotify__index {
+    text-align: match-parent;
+}
+
+/* Navbar__here represents which page you are currently on with highlighted text */
+.navbar__here {
+    color: gold;
+}
